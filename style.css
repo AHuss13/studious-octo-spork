@@ -10,17 +10,38 @@ header {
   background-color: #a55226;
   padding: 20px;
   text-align: center;
+  width: 100vw;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  justify-content: space-between;
 }
 
 section{
   padding: 20px;
+  flex-wrap: wrap;
 }
 
 footer{
   background-color: #d07335;
   padding: 10px;
   text-align: center;
-  position: fixed;
-  width: 100%;
+  width: 100vw;
   bottom: 0;
+}
+
+.work{
+  display: flex;
+  flex: 2 2;
+  flex-wrap: wrap;
+}
+
+#firstpic {
+  border-radius: 10px;
+  max-width: 720px;
 }
