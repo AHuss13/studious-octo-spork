@@ -46,7 +46,12 @@ div {
 
 #firstpic {
   max-width: 720px;
-  border-radius: 10px;
   width: auto;
   height: auto;
+  padding: 20px;
+}
+
+#passwordgen {
+  max-width: 360px;
+  padding: 20px;
 }
