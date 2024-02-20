@@ -8,12 +8,12 @@ body {
 
 header {
   background-color: #a55226;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
-  width: 100vw;
 }
 
 nav {
+  background-color: #84baea;
   display: flex;
   justify-content: space-around;
 }
@@ -31,17 +31,22 @@ footer{
   background-color: #d07335;
   padding: 10px;
   text-align: center;
-  width: 100vw;
   bottom: 0;
 }
 
 .work{
   display: flex;
   flex: 2 2;
-  flex-wrap: wrap;
+}
+
+div {
+  display: flex;
+  justify-content: center;
 }
 
 #firstpic {
-  border-radius: 10px;
   max-width: 720px;
+  border-radius: 10px;
+  width: auto;
+  height: auto;
 }
