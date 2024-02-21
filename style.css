@@ -51,6 +51,15 @@ div {
   padding: 20px;
 }
 
+avatar {
+  background-image: url(./Images/WIN_20240221_13_49_55_Pro.jpg);
+  background-position: center;
+  background-size: contain;
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+}
+
 #passwordgen {
   max-width: 360px;
   padding: 20px;
