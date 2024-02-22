@@ -53,13 +53,6 @@ div {
   flex-wrap: wrap;
 }
 
-#firstpic {
-  max-width: 55vw;
-  width: auto;
-  height: auto;
-  padding: 20px;
-}
-
 avatar {
   background-image: url(./Images/WIN_20240221_13_49_55_Pro.jpg);
   background-position: center;
@@ -69,7 +62,41 @@ avatar {
   border: 2px solid black;
 }
 
+#firstpic {
+  max-width: 55vw;
+  width: auto;
+  height: auto;
+}
+
 #passwordgen {
   max-width: 40vw;
+}
+
+label {
+  padding: 10px;
+  text-align: center;
+}
+
+card{
   padding: 20px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+card footer {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background: radial-gradient(closest-side, rgb(150, 150, 150), rgb(0, 0, 200), black);
+  border: grey;
+  border-width: 20px;
+  border-radius: 10px;
+}
+
+@media (max-width: 380px) {
+  card footer{
+    font-size: 12px;
+  }
 }
